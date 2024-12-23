@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "../css/navbar.css";
-
+import Profile from "../images/default.png";
 export default class Navbar extends Component {
   render() {
     return (
@@ -15,7 +15,10 @@ export default class Navbar extends Component {
           </div>
 
           <div className="rightside">
-            <button className='addtask'>Add Task +</button>
+            <button className="addtask">Add Task +</button>
+            <div className="profileimage">
+              <img src={Profile} alt="User Profile" className="profileimage" />
+            </div>
           </div>
         </div>
       </div>

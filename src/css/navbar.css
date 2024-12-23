@@ -48,10 +48,15 @@
 
 .navtitle .rightside {
   text-align: right;
-  margin-right: 20px; /* Add some spacing from the right edge */
-  font-size: 18px; /* Adjust font size if needed */
-  color: rgb(97, 20, 240); /* Optional: Style it to match your theme */
-  cursor: pointer; /* Indicate that it is clickable */
+  margin-right: 20px; 
+  font-size: 18px; 
+  color: rgb(97, 20, 240); 
+  cursor: pointer; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
 }
 .navtitle .dateandicon {
   display: flex;
@@ -63,9 +68,13 @@
   background-color: rgb(97, 20, 240);
   color: white;
   border-radius: 25px;
-  font-weight: bold;
+  font-weight: 300;
   font-size: 25px;
   padding-left: 20px;
   padding-right: 20px;
   border: 0px solid transparent;
+}
+.navtitle .profileimage{
+    width: 60px;
+    height: 60px;
 }
