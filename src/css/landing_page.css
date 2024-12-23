@@ -1,0 +1,149 @@
+.landing {
+  background-color: white;
+  width: 100%;
+}
+.landing .topbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.landing .menubar {
+  background: rgb(193, 225, 233);
+  background: linear-gradient(
+    90deg,
+    rgb(166, 223, 237) 0%,
+    rgba(134, 198, 223, 1) 21%,
+    rgba(114, 138, 221, 1) 79%,
+    rgba(239, 148, 237, 1) 100%
+  );
+  width: 600px;
+  height: 50px;
+  border-radius: 25px;
+  border: 0px solid none;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 50px;
+  font-size: 20px;
+  align-items: center;
+  padding-left: 20px;
+}
+.menubar a {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.menubar a svg {
+  margin-right: 8px;
+}
+.landing .statusbox {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  gap: 40px;
+}
+.landing .statusbox1 {
+  background-color: rgb(97, 20, 240);
+  width: 450px;
+  height: 100px;
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.landing .statusbox2 {
+  background-color: rgb(255, 162, 0);
+  width: 450px;
+  height: 100px;
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.statusbox1 p,
+.statusbox2 p {
+  font-size: 25px;
+  font-weight: 600;
+}
+.landing h2 {
+  font-size: 25px;
+  margin-left: 30px;
+}
+.landing .buttonbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  margin-left: 30px;
+}
+.buttonbar .accessbutton {
+  font-size: 25px;
+  color: rgb(97, 20, 240);
+  background-color: transparent;
+  border-radius: 25px;
+  border: 2px solid rgb(97, 20, 240);
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 5px;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.buttonbar .accessbutton.active {
+  background-color: rgb(97, 20, 240);
+  color: white; /* Change text color when active */
+}
+.landing .selectionbox {
+  width: 1650px;
+  background-color: rgb(206, 171, 239);
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30px;
+  border-radius: 25px;
+  margin-bottom: 50px;
+}
+.selectionbox .selectiontext {
+  display: flex;
+  flex-direction: column;
+}
+.selectiontext .title {
+  font-size: 20px;
+  color: black;
+}
+.selectiontext .date {
+  font-size: 20px;
+  color: rgb(72, 72, 72);
+}
+
+.selectionbox input[type="checkbox"] {
+  margin-right: 15px;
+  margin-left: 25px;
+  width: 35px;
+  height: 35px;
+  border: 3px solid rgb(97, 20, 240);
+  background-color: transparent;
+}
+
+.selectiontext {
+  display: flex;
+  flex-direction: column;
+}
+
+.selectiontext .title,
+.selectiontext .date {
+  margin: 0;
+}
+
+.selectiontext .date {
+  color: #555;
+}
