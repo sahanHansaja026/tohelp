@@ -1,43 +1,71 @@
-.navbar{
-    display: flex;
-    background-color: rgb(237, 230, 255,1);
-    width: 100%;
-    height: 70px;
-    align-items: center;
+.navbar {
+  display: flex;
+  background-color: rgb(237, 230, 255, 1);
+  width: 100%;
+  height: 70px;
+  align-items: center;
 }
-.navbar .cicon{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: blueviolet;
-    font-size: 35px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    color: white;
-    font-weight: bold;
+.navbar .cicon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: blueviolet;
+  font-size: 35px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
 }
-.navbar .h1class{
-    display: flex;
-    flex-direction: column;
+.navbar .h1class {
+  display: flex;
+  flex-direction: column;
 }
-.navbar .h1class1{
-    font-weight: 100;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    margin-left: 10px;
+.navbar .h1class1 {
+  font-weight: 100;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin-left: 10px;
 }
-.navbar .h1class2{
-    font-weight: 100;
-    color: rgb(96, 96, 96);
-    font-size: 20px;
-    margin-left: 10px;
+.navbar .h1class2 {
+  font-weight: 100;
+  color: rgb(85, 84, 84);
+  font-size: 20px;
+  margin-left: 10px;
 }
-.h1class1,.h1class2{
-    margin: 0;
+.h1class1,
+.h1class2 {
+  margin: 0;
 }
-.navbar .navtitle{
-    margin-left: 20px;
-    display: flex;
-    flex-direction: row;
+.navbar .navtitle {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between; /* Add this */
+  align-items: center; /* Ensure items are vertically centered */
+}
+
+.navtitle .rightside {
+  text-align: right;
+  margin-right: 20px; /* Add some spacing from the right edge */
+  font-size: 18px; /* Adjust font size if needed */
+  color: rgb(97, 20, 240); /* Optional: Style it to match your theme */
+  cursor: pointer; /* Indicate that it is clickable */
+}
+.navtitle .dateandicon {
+  display: flex;
+  flex-direction: row;
+}
+.navtitle .addtask {
+  width: auto;
+  height: 35px;
+  background-color: rgb(97, 20, 240);
+  color: white;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 0px solid transparent;
 }
