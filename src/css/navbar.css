@@ -2,6 +2,42 @@
     display: flex;
     background-color: rgb(237, 230, 255,1);
     width: 100%;
-    height: 50px;
+    height: 70px;
     align-items: center;
+}
+.navbar .cicon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    font-size: 35px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+.navbar .h1class{
+    display: flex;
+    flex-direction: column;
+}
+.navbar .h1class1{
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-left: 10px;
+}
+.navbar .h1class2{
+    font-weight: 100;
+    color: rgb(96, 96, 96);
+    font-size: 20px;
+    margin-left: 10px;
+}
+.h1class1,.h1class2{
+    margin: 0;
+}
+.navbar .navtitle{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
 }
