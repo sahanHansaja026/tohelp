@@ -78,3 +78,43 @@
     width: 60px;
     height: 60px;
 }
+.popup {
+  position: fixed;
+  top: 70px;
+  right: 0;
+  width: 350px; /* Sidebar width */
+  height: 100%;
+  background-color: rgb(144, 103, 220);
+  box-shadow: -4px 0 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  overflow-y: auto; /* For scrolling if content exceeds the viewport */
+}
+
+.popup-content {
+  padding: 20px;
+}
+
+/* Overlay styles */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 999; /* Layer behind the popup but above other content */
+}
+
+/* Sidebar styles */
+.popup {
+  position: fixed;
+  height: 100%;
+  box-shadow: -4px 0 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Above the overlay */
+  overflow-y: auto; /* Scroll if content exceeds */
+}
+
+.popup-content {
+  padding: 20px;
+}
+

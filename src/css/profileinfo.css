@@ -1,0 +1,30 @@
+.profile-info {
+  text-align: left;
+  display: flex;
+  flex-direction: column; /* Align content to the left */
+}
+
+.profile-info h2 {
+  text-align: center; /* Center align the header */
+  margin-bottom: 20px;
+}
+
+.profile-info p {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #000000;
+}
+.profile-info a {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #000000;
+  text-decoration: none;
+}
+.profile-info a:hover {
+  color: #000000; 
+}
+
+.icon {
+  margin-right: 10px; 
+  color: #000000;
+}
